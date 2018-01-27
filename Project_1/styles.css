@@ -1,25 +1,106 @@
-html,body{
+body,html{
 	height:100%;
 }
+
 body{
-				background-image:url(photo1.jpg);
-				background-repeat: no-repeat;
-				background-size:  cover;
+	background: url(photo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	margin: 0 100px;
+	padding: 30px 50px 50px 30px;
+}
+#cont_table{
+	font-weight: 500;
+	color: darkslategray;
+	margin-top: 15px;
+}
+#cont_table form fieldset{
+	border-width: 5px;
+	border-color:darkturquoise ;
+}
+#cont_table legend{
+	font-weight: 900;
+	text-align: center;
+}
+#cont_table input[type='text'] {    
+		width:95%;		
+    border: 1px solid darkslategray;
+    margin: 5px auto 5px;
+		height: 5px;
+		padding:2%;
+		background: url(photo1.jpg);
+    -webkit-border-radius: 10px;
+    text-align: center;
+		font-size: 15px;
+}
+#cont_table input[type='submit'] {
+    width:30%;
+    border: 1px solid darkslategray;
+		background: url(photo1.jpg);
+    margin: 5px auto 5px;    
+		height: px;
+		padding:1%;
+		align-items: center;
+    -webkit-border-radius: 10px;
+    text-align: center;		
+		color: darkslategray;
+		font-size: 15px;
+		font-weight: 700;
+}
+#cont_table textarea{
+    width:90%;
+    border: 1px solid darkslategray;
+    margin: 5px auto 5px;
+		background: url(photo1.jpg);
+    padding:4.4%;
+    -webkit-border-radius: 10px;
+    text-align: left;	
+		font-size: 15px;
 }
 
-a{
-	color: black;
-	font-size: 22px;
-	font-style: italic;
+
+
+
+.resume, .contact{
+	background: url(photo1.jpg);
+	border: solid;
+	-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+	cursor: pointer;
+	color:darkslategrey;
+	padding:15px 32px;
+	text-align: center;
 	text-decoration: none;
-	padding-right: 25px;
-}
-
-hr{
-	border-color: black;
-	width:100%;
-}
-
-div{
+	font-size: 16px;
+	display: inline-block;
+	border-width: 5px;
+	border-color:#2ebfb0;	
 	
+}
+
+
+#resume {	
+	color: white;
+	width:100%;	
+}
+
+
+table{	
+	overflow-x:auto;
+	margin-left: -22.5%;
+	margin-right: -22.5%;
+	color: black;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse; 
+	border-width: medium ;
+	border-color: darkturquoise ;
+	color: darkslategray;
+}
+td{
+	width: 100%;
+	padding: 4px;
+	white-space: nowrap;
+	width: 100%;
 }
