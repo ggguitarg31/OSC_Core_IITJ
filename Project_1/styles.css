@@ -1,7 +1,9 @@
 body,html{
 	height:100%;
 }
-
+table{
+    table-layout:fixed;
+}
 body{
 	background: url(photo1.jpg);
 	background-repeat: no-repeat;
@@ -79,13 +81,6 @@ body{
 	
 }
 
-
-#resume {	
-	color: white;
-	width:100%;	
-}
-
-
 table{	
 	overflow-x:auto;
 	margin-left: -22.5%;
@@ -102,5 +97,4 @@ td{
 	width: 100%;
 	padding: 4px;
 	white-space: nowrap;
-	width: 100%;
 }
