@@ -1,5 +1,5 @@
-	var gridHeight = 400;
-	var gridWidth = 400;
+	var gridHeight = 1000;
+	var gridWidth = 1000;
 	var theGrid = createArray(gridWidth);	
 	var mirrorGrid = createArray(gridWidth);
 	var check;
